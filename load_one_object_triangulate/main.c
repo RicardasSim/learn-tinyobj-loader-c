@@ -189,7 +189,7 @@ int main()
     for( unsigned int i = offset; i < offset + number_of_faces; ++i )
     {
         // triangulated, the number of face vertices should be 3
-        //int num_of_face_verts = attrib.face_num_verts[j];
+        //int num_of_face_verts = attrib.face_num_verts[i];
 
         for ( unsigned int j = 0; j < 3; ++j )
         {
